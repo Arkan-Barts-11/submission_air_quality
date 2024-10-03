@@ -21,7 +21,7 @@ def create_daily_tmp_df(df):
 
     return daily_tmp_df
 
-guanyuan_all = pd.read_csv("c:/Users/Arkan/Documents/arkan/Bangkit - Machine Learning/Belajar Analisis Data dengan Python/submission_air_quality/dashboard/guanyuan_all.csv")
+guanyuan_all = pd.read_csv("./dashboard/guanyuan_all.csv")
 
 guanyuan_all.sort_values(by="date", inplace=True)
 guanyuan_all.reset_index(inplace=True)
